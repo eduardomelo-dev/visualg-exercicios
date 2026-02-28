@@ -1,4 +1,4 @@
-Algoritmo "Calculadora_Megazorde_Definitiva"
+Algoritmo "Calculadora_Megazorde"
 
 Var
    A, B, Resultado : real
@@ -14,12 +14,12 @@ Inicio
       Escreval("      CALCULADORA MEGAZORDE 2.0          ")
       Escreval("=========================================")
       Escreval(" 1 - Soma")
-      Escreval(" 2 - SubtraÁ„o")
-      Escreval(" 3 - MultiplicaÁ„o")
-      Escreval(" 4 - Divis„o")
+      Escreval(" 2 - Subtra√ß√£o")
+      Escreval(" 3 - Multiplica√ß√£o")
+      Escreval(" 4 - Divis√£o")
       Escreval(" 0 - SAIR")
       Escreval("=========================================")
-      Escreva(" Escolha uma opÁ„o: ")
+      Escreva(" Escolha uma op√ß√£o: ")
       Leia(Opcao)
 
       Se Opcao = "0" entao
@@ -44,24 +44,24 @@ Inicio
 
             Caso "2"
                Resultado <- A - B
-               Escreval(" > RESULTADO DA SUBTRA«√O: ", Resultado)
+               Escreval(" > RESULTADO DA SUBTRA√á√ÉO: ", Resultado)
 
             Caso "3"
                Resultado <- A * B
-               Escreval(" > RESULTADO DA MULTIPLICA«√O: ", Resultado)
+               Escreval(" > RESULTADO DA MULTIPLICA√á√ÉO: ", Resultado)
 
             Caso "4"
                Se B = 0 entao
-                  Escreval(" > ERRO: N„o existe divis„o por zero!")
+                  Escreval(" > ERRO: N√£o existe divis√£o por zero!")
                Senao
                   Resultado <- A / B
-                  Escreval(" > RESULTADO DA DIVIS√O: ", Resultado)
+                  Escreval(" > RESULTADO DA DIVIS√ÉO: ", Resultado)
                FimSe
          FimEscolha
 
       Senao
          Escreval("")
-         Escreval(" OpÁ„o inv·lida! Digite apenas 0, 1, 2, 3 ou 4.")
+         Escreval(" Op√ß√£o inv√°lida! Digite apenas 0, 1, 2, 3 ou 4.")
       FimSe
 
       Escreval("-----------------------------------------")
@@ -70,6 +70,7 @@ Inicio
 
    FimEnquanto
 
-   Escreval(" Calculadora encerrada. AtÈ logo!")
+   Escreval(" Calculadora encerrada. At√© logo!")
+
 
 Fimalgoritmo
