@@ -1,2 +1,26 @@
-# VISUALG
-This repository contains exercises and small projects developed in Visualg as part of my Logic Programming studies. I am currently a Computer Science student, focused on building a strong foundation in algorithms, problem-solving, and programming fundamentals. This repository documents my learning journey and academic progress.
+# Visualg Exercícios
+
+Repositório com exercícios de lógica de programação e algoritmos desenvolvidos em Visualg.
+
+## Objetivo
+
+Registrar minha evolução nos fundamentos de programação, praticando raciocínio lógico, entrada e saída de dados, estruturas condicionais e operações matemáticas.
+
+## Conteúdo
+
+- `CALCULADORA_MEGAZORDE_.ALG`: calculadora em pseudocódigo com operações matemáticas básicas.
+
+## Tecnologias
+
+- Visualg
+- Algoritmos
+- Pseudocódigo
+- Lógica de programação
+
+## O que foi praticado
+
+- Declaração de variáveis
+- Leitura e escrita de dados
+- Estruturas condicionais
+- Operações aritméticas
+- Organização de raciocínio antes da implementação em linguagens como Java e JavaScript
